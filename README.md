@@ -5,7 +5,7 @@
 * 標高タイルの代わりに利用したデータは、[重ねるハザードマップ](https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/opendata.html)の洪水浸水想定区域（想定最大規模）等である。
 * ただし、地点ごとの詳細な値は格納されておらず、浸水深の幅（例：0.5～3.0m）のみが格納されているため、その幅の中での最大値を利用している（20.0m以上は、便宜的に30mと設定）。
 
-![サンプル画像](https://raw.githubusercontent.com/mghs15/shinsui-rank-danmen/main/sample-image.png?token=GHSAT0AAAAAAB4W7LSC54TD7357OHNWYI2KZSATJOQ "浸水クラスの断面図サンプル")
+![サンプル画像](sample-image.png "浸水クラスの断面図サンプル")
 
 ## 参考
 * 地理院地図のソース https://github.com/gsi-cyberjapan/gsimaps
