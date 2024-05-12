@@ -33955,7 +33955,7 @@ GSI.CrossSectionViewDisplayDialog = GSI.Dialog.extend({
     var td = null;
 
     td = $("<td>").attr({ "colspan": 3, "width": "100%" });
-    td.css({ "font-size": "9pt", "padding-left": "8px", "padding-right": "8px" }).html("指定した点の位置や点数に関わらず、始点～終点間を300等分した各点の浸水ランクよりグラフを作成しています");
+    td.css({ "font-size": "9pt", "padding-left": "8px", "padding-right": "8px" }).html("指定した点の位置や点数に関わらず、始点～終点間を300等分した各点の浸水ランクよりグラフを作成しています。<a href='https://github.com/mghs15/shinsui-rank-danmen' target='_blank'>注意事項：参照実装のため、防災等の目的で利用しないでください</a>");
 
     tr.append(td);
     table.append(tr);
